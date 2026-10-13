@@ -22,8 +22,6 @@ The device was developed for the piece **_A Duet of Intelligences_** – a compo
 | [`M-AI/README.txt`](M-AI/README.txt) | Original short manual. |
 | [`docs/paper/`](docs/paper) | Paper *A Duet of Intelligences: Human–AI Co-Creation in Live Piano Performance*. |
 
-![M-AI mono interface](docs/images/interface-mono.jpg)
-
 ---
 
 ## Requirements
@@ -57,7 +55,7 @@ All parameters can be changed while playing, and tempo changes are followed auto
 
 ### Markov Model
 
-| Control | Function | Recommended |
+| Control | Function | Recommended for an initial test |
 |---|---|---|
 | **Enable** | Turns output of Markov-generated notes on/off | On |
 | **Learn** | Turns periodic re-learning of the model on/off | On |
