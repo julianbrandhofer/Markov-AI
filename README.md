@@ -4,9 +4,9 @@
 
 *🇩🇪 [Deutsche Version](README.de.md)*
 
-M-AI is a Max for Live MIDI effect that listens to what you play, learns which notes tend to follow which, and improvises melodic phrases in response – synchronized to Ableton's tempo. It needs no prior training, no dataset and no stylistic preparation: all of its musical material comes directly from the performer's live input.
+M-AI is a Max for Live MIDI effect that transforms the input of a performer into musical Output based on MIDI-Data. It learns which notes tend to follow which, and improvises melodic phrases in response – synchronized to Ableton's tempo. It needs no prior training, no dataset and no stylistic preparation: all of its musical material comes directly from the performer's live input.
 
-The device was developed for the piece **_A Duet of Intelligences_** – a composition for pianist, composers and an AI instrument playing a Disklavier – and is described in the paper presented at **AIMC 2026** (see [Background & Paper](#background--paper)).
+The device was developed for the piece **_A Duet of Intelligences_** – a composition for pianist, composers and an AI instrument playing a Disklavier. The paper was presented at **AIMC 2026** (see [Background & Paper](#background--paper)).
 
 ![M-AI dual interface](docs/images/interface-dual.jpg)
 
@@ -19,7 +19,6 @@ The device was developed for the piece **_A Duet of Intelligences_** – a compo
 | [`M-AI/MP_M-AI.amxd`](M-AI/MP_M-AI.amxd) | **Dual version** – two independent Markov models, each with its own rhythm generator and settings (the version used in the performance). |
 | [`M-AI/MP_AI_Mono.amxd`](M-AI/MP_AI_Mono.amxd) | **Mono version** – a single Markov model. |
 | [`M-AI/Piano Example/`](M-AI/Piano%20Example) | Example Ableton Live set (Live 12) with the dual device and a piano instrument. |
-| [`M-AI/README.txt`](M-AI/README.txt) | Original short manual (German). |
 | [`docs/paper/`](docs/paper) | Paper *A Duet of Intelligences: Human–AI Co-Creation in Live Piano Performance*. |
 
 ![M-AI mono interface](docs/images/interface-mono.jpg)
@@ -90,14 +89,6 @@ In the dual version, *Markov Model*, *Rhythm Generator* and *Misc.* exist twice 
 ---
 
 ## How it works
-
-```
-MIDI in ──► note buffer (Size) ──► ml.markov (learn transitions)
-                                        │
-Live transport ──► rhythm generator ────┤  (note value, density)
-                                        ▼
-                          next pitch ──► velocity / octave ──► MIDI out
-```
 
 - Every incoming note is a **state**. From the buffered notes the model counts how often each note follows another. Example: for **E G E B E G** with current note **E**, the next note is **G** with 67 % and **B** with 33 % probability.
 - A **rhythm generator** based on Max's `transport` object decides *when* a note is played (random choice among the enabled note values, rests according to *Density*). This keeps the output locked to Live's tempo.
