@@ -1,0 +1,31 @@
+M-AI – Markov AI for Max for Live
+Copyright (c) 2024-2026 Julian Brandhofer
+
+This work (the Max for Live devices, the example Live set and the
+documentation in this repository) is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0).
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format.
+  - Adapt: remix, transform, and build upon the material.
+
+Under the following terms:
+  - Attribution: You must give appropriate credit (name the author
+    "Julian Brandhofer" and link to this repository), provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial: You may not use the material for commercial purposes.
+    This includes selling the devices or derivatives of them.
+
+Music you create or perform with the devices (concerts, recordings,
+compositions) is your own and is not restricted by this license.
+For commercial use of the devices themselves, please contact the author.
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by-nc/4.0/
+
+Exceptions:
+  - The paper in docs/paper/ remains under the copyright of its authors
+    (Veronika Reutz Drobnić and Julian Brandhofer) and the terms of the
+    AIMC 2026 proceedings.
+  - The external ml.markov (not included) is licensed separately by its authors.

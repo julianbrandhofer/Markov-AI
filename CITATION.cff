@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use M-AI, please cite the paper below."
+title: "M-AI – Markov AI for Max for Live"
+type: software
+authors:
+  - family-names: Brandhofer
+    given-names: Julian
+    affiliation: "Institute of Music Informatics and Musicology, University of Music Karlsruhe"
+license: CC-BY-NC-4.0
+version: "1.0"
+keywords:
+  - Max for Live
+  - Ableton Live
+  - Markov chain
+  - co-creative AI
+  - live improvisation
+  - Disklavier
+preferred-citation:
+  type: conference-paper
+  title: "A Duet of Intelligences: Human–AI Co-Creation in Live Piano Performance"
+  authors:
+    - family-names: Reutz Drobnić
+      given-names: Veronika
+      affiliation: "Institute of Music Informatics and Musicology, University of Music Karlsruhe"
+    - family-names: Brandhofer
+      given-names: Julian
+      affiliation: "Institute of Music Informatics and Musicology, University of Music Karlsruhe"
+  collection-title: "Proceedings of the 7th Conference on AI Music Creativity (AIMC 2026)"
+  conference:
+    name: "7th Conference on AI Music Creativity (AIMC 2026)"
+    city: Berlin
+    country: DE
+    date-start: 2026-09-16
+    date-end: 2026-09-18
+  year: 2026

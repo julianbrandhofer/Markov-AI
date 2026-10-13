@@ -1,0 +1,15 @@
+# Ableton Live: automatic backups and analysis files
+Backup/
+*.asd
+
+# Max
+*.maxhelp.bak
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Local notes (not published)
+GITHUB-ANLEITUNG.md

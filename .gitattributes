@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep Max for Live / Ableton files byte-exact (no line-ending conversion)
+*.amxd binary
+*.amxx binary
+*.als  binary
+*.alp  binary
+*.adg  binary
+*.adv  binary
+*.ico  binary
+*.jpg  binary
+*.pdf  binary
+
+# Text files
+*.md   text eol=lf
+*.cff  text eol=lf
+*.txt  text
