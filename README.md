@@ -101,10 +101,8 @@ M-AI was created for **_A Duet of Intelligences_**, a piece for a human pianist 
 
 > Veronika Reutz Drobnić & Julian Brandhofer (2026). *A Duet of Intelligences: Human–AI Co-Creation in Live Piano Performance.* Proceedings of the 7th Conference on AI Music Creativity (AIMC 2026), Berlin, Germany.
 
-- Paper (PDF): [`docs/paper/A-Duet-of-Intelligences_AIMC2026.pdf`](docs/paper/A-Duet-of-Intelligences_AIMC2026.pdf)
+- Paper (PDF): <https://www.researchgate.net/publication/414282293_A_Duet_of_Intelligences_Human-AI_Co-Creation_in_Live_Piano_Performance>
 - Composer: Veronika Reutz Drobnić – <https://veronikareutz.com/>
-
-If you use M-AI in your work, please cite the paper (GitHub's **"Cite this repository"** button uses [`CITATION.cff`](CITATION.cff)).
 
 ---
 
