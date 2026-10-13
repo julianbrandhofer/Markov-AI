@@ -19,6 +19,7 @@ The device was developed for the piece **_A Duet of Intelligences_** – a compo
 | [`M-AI/MP_M-AI.amxd`](M-AI/MP_M-AI.amxd) | **Dual version** – two independent Markov models, each with its own rhythm generator and settings (the version used in the performance). |
 | [`M-AI/MP_AI_Mono.amxd`](M-AI/MP_AI_Mono.amxd) | **Mono version** – a single Markov model. |
 | [`M-AI/Piano Example/`](M-AI/Piano%20Example) | Example Ableton Live set (Live 12) with the dual device and a piano instrument. |
+| [`M-AI/README.txt`](M-AI/README.txt) | Original short manual. |
 | [`docs/paper/`](docs/paper) | Paper *A Duet of Intelligences: Human–AI Co-Creation in Live Piano Performance*. |
 
 ![M-AI mono interface](docs/images/interface-mono.jpg)
